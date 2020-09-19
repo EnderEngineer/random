@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.pic{
+	height: 100vh;
+	background-image: url(https://get.pxhere.com/photo/bird-wing-kite-beak-eagle-soaring-hawk-fauna-bird-of-prey-bald-eagle-vertebrate-alaska-vulture-falcon-harrier-buzzard-inflight-bif-kachemakbay-andymorffew-morffew-baldeagle-egyptian-vulture-accipitriformes-267900.jpg);
+	background-size: cover;
+	background-position: center;
+	
+}
+.div-fon{
+	height: 100vh;
+	background: rgb(254,231,14);
+	background: linear-gradient(90deg, rgba(254,231,14,1) 0%, rgba(255,132,0,0.2049194677871149) 100%);
+}
+.header-div{
+	position: absolute;
+	width: 700px;
+	margin: auto;
+	transition: left 0.6s ease;
+}
+.header{
+	font-size: 120px;
+	color: #efefef;
+	text-align: center;
+	padding-top: 50px;
+}
+.buttons{
+	width: 1000px;
+	margin: auto;
+	margin-top: 0px;
+}
+.button{
+	width: 200px;
+	float: left;
+}
+.button + .button{
+	margin-left: 50px;
+}
+.line{
+	width: 200px;
+	height: 10px;
+	background-color: #232323;
+	transition: background-color 0.3s ease;
+}
+.text{
+	font-size: 30px;
+	color: #efefef;
+}
+.slider{
+	margin: auto;
+	width: 700px;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+}
